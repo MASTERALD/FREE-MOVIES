@@ -11,7 +11,8 @@
 
 body {
 	background: var(--fondo);
-	font-family: 'Open Sans', sans-serif;
+	familia de fuentes: 'Marcador permanente', cursiva;
+	
 }
 
 .contenedor {
@@ -29,11 +30,10 @@ header .contenedor {
 	align-items: center;
 }
 
-header .logotipo {
-	font-family: 'Bebas Neue', cursive;
-	font-weight: normal;
-	color: var(--rojo);
-	font-size: 40px;
+header.logotipo {
+	
+	color:blue ;
+	familia de fuentes: 'Marcador permanente', cursiva;
 }
 
 header nav a {
@@ -142,15 +142,11 @@ header .XD{
 	font-family: 'Bebas Neue', cursive;
 	font-weight: normal;
 	color: var(--rojo);
-	font-size: 40px;
-}
-
-*.h1 {
-
-background-color:red;	
+	font-size:
 
 
 
 
-}
+
+
 
