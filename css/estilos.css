@@ -1,17 +1,18 @@
-:root {
-	--rojo: #E50914;
-	--fondo: #141414;
+* root {
+
+
+
 }
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
 
-body {
-	background: var(--fondo);
-	familia de fuentes: 'Marcador permanente', cursiva;
+
+body 
+
+	
 	
 }
 
@@ -52,7 +53,7 @@ header nav a.activo {
 	font-size: 16px;
 	min-height: 40.62em;
 	color: #fff;
-	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/CALAMAR2.jpg);
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/ARCANE2.jpg);
 	background-position: center center;
 	background-size: cover;
 	margin-bottom: 3.12em;
@@ -145,7 +146,4 @@ header .XD{
 	font-size:
 
 
-
-
-
-
+	
