@@ -50,15 +50,24 @@ header nav a.activo {
 
 /* ---- ----- ----- Pelicula Principal ----- ----- ----- */
 .pelicula-principal {
-	font-size: 16px;
+	font-size: 18px;
 	min-height: 40.62em;
 	color: #fff;
 	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/CALAMAR2.jpg);
 	background-position: center center;
 	background-size: cover;
+	animation: movimiento 10s infinite linear alternate;
 	margin-bottom: 3.12em;
 	display: flex;
 	align-items: end;
+}
+
+@keyframes movimiento{
+	from{
+		background-position: bottom left;
+	}to{
+		background-position:top right ;
+	}
 }
 
 .pelicula-principal .contenedor {
@@ -125,6 +134,33 @@ header nav a.activo {
 }
 
 
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #092327;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #ef8354;
+}
+
+
 header .PE1 {
 	font-family: 'Bebas Neue', cursive;
 	font-weight: normal;
@@ -144,6 +180,18 @@ header .XD{
 	font-weight: normal;
 	color: var(--rojo);
 	font-size:
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 	
