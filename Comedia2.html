@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Comedia</title>
+
+	 <style>
+
+
+
+  	figure {
+
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  
+  
+
+
+
+}
+
+figcaption {
+
+	position: relative;
+	
+}
+
+
+  	#comd{
+
+
+      font-family: 'Oswald', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+
+       
+       
+       background-color: black;
+
+
+       width: 1400;
+       height: 140;
+
+    }
+
+
+  	    .contenedor figure{
+       position:relative;
+        height: 450px;
+        cursor: pointer;
+        width: 300px;
+        overflow: hidden;
+        border-radius: 6px;
+        box-shadow: 0px 15px 20px rgba(0,0,0,0.50);
+    }
+    .contenedor figure img{
+        width: 100%;
+        height: 100%;
+        transition: all 400ms ease-out;
+        will-change: transform;
+    }
+    .contenedor figure .capa{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,103,123,0.7);
+        transition: all 400ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+       text-align: center;
+    }
+    .contenedor figure:hover > .capa {
+        opacity: 1;
+        visibility: visible;
+    }
+    .contenedor figure:hover > .capa h3{
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+    .contenedor figure:hover > img{
+        transform: scale(1.3);
+    }
+    .contenedor figure .capa h3{
+        color: #fff;
+        font-weight: 100;
+        margin-bottom: 100px;
+        transition: all 400ms ease-out;
+         margin-top: 30px;
+    }
+    .contenedor figure .capa p{
+        color: #fff;
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+
+
+  </style>
+
+</head>
+<body style="background-color: blue;">
+
+	<center><h3 style="  width: 4000; height: 500; color:white" id="comd"> Comedia</h3></center><br><br>
+
+   <figure>
+   <div class="contenedor">
+       <a href="#">
+    <figure>
+    	<img src="https://pics.filmaffinity.com/Mi_pobre_y_dulce_angelito-424364908-large.jpg" alt="pics.filmaffinity.com/Mi_pobre_y_dulce_angelito..." jsname="HiaYvf" jsaction="load:XAeZkd;" class="n3VNCb" data-noaft="1" style="width: 300px; height: 450px; margin: 0px;">
+                <div class="capa">
+                  <h3>Mi pobre y dulce angelito </h3>
+                    <p>En esta nueva comedia de aventuras, ahora navideñas, Max Mercer, un niño de diez años, se queda solo en su casa por accidente mientras su familia se va a Japón por las fiestas.</p>
+
+              
+             </div>
+     </figure>
+           </a>
+      </div>
+       
+        <figcaption><button><a href="#"><i>Reproducir Mi pobre y dulce angelito</i></a></button></figcaption>           
+ </figure>
+
+
+
+
+
+
+ <figure>
+   <div class="contenedor">
+       <a href="#">
+    <figure>
+    	<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTlNQgTvtwRaBrL5BIPLCemVXCn92e_RUrAlJ1rnXykmH2HUWZ2" alt="undefined" jsname="HiaYvf" jsaction="load:XAeZkd;" class="n3VNCb" data-noaft="1" style="width: 300px; height: 450px; margin: 0px;">
+                <div class="capa">
+                  <h3>Space Jam una nueva era</h3>
+                    <p> Sinopsis: Atrapado en el espacio digital, la superestrella del baloncesto LeBron James se une a la banda de los Looney Tunes para derrotar al Goon Squad en un juego de baloncesto y salvar a su hijo.</p>
+
+              
+             </div>
+     </figure>
+           </a>
+      </div>
+       
+        <figcaption><button><a href="#"><i>Reproducir Space Jam una nueva era</i></a></button></figcaption>           
+ </figure>
+ 
+</body>
+</html>
