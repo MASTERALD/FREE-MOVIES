@@ -98,6 +98,48 @@ font-family: 'PT Sans Narrow', sans-serif;
         margin: auto;
     }
 
+    .resolucion {
+    width: 99%;
+    text-align: center;
+}
+
+
+/**Movil**/
+
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+}
+
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .desktop {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+
+
 
 
   </style>
@@ -204,6 +246,22 @@ font-family: 'PT Sans Narrow', sans-serif;
        
         <figcaption><button><a href="#"><i>Reproducir Un príncipe en Nueva York 2/i></a></button></figcaption>           
  </figure>
+
+
+
+
+
+ <div class="resolucion">
+        <div class="desktop">
+            <h4>Esto es un ordenador</h1>
+        </div>
+        <div class="tablet">
+            <h4>Esto es un tablet</h1>
+        </div>
+        <div class="movil">
+            <h4>Esto es un movil</h1>
+        </div>
+    </div>
  
  
  
