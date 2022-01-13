@@ -71,7 +71,8 @@ font-family: 'PT Sans Narrow', sans-serif;
 	list-style: none;
 	padding: 0;
 	background: #092327;
-	width: 12%;
+	width: 27%;
+	height: 24px;
 	max-width: 1000px;
 	margin: auto;
 	color: white;
@@ -92,6 +93,43 @@ font-family: 'PT Sans Narrow', sans-serif;
  #s li a:hover{
 	background: red;
 }
+
+
+   /**Movil**/
+
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+}
+
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .desktop {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+
    
 
 
@@ -108,17 +146,13 @@ font-family: 'PT Sans Narrow', sans-serif;
 			<h2 id="TITULO" style="color:black;"  class="logotipo">FreeMovies</h2>
 			<nav id="nav">
 
-				<input class="gLFyf gsfi" jsaction="paste:puy29d;" maxlength="2048" name="q" type="text" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" autofocus="" role="combobox" spellcheck="false" title="Buscar" value="" aria-label="Buscar">
-
-				 <button> <img src="https://png.pngtree.com/png-vector/20190927/ourlarge/pngtree-vector-black-magnifying-glass-with-transparent-background-png-image_1758357.jpg" alt="Vector Negro Lupa Con Fondo Transparente, Negro, Azul, Blanco PNG y Vector  para Descargar Gratis | Pngtree" jsname="HiaYvf" jsaction="load:XAeZkd;" class="n3VNCb" data-noaft="1" style="width: 30px; height: 19px; margin: 0px;"> <i style=" background-color:blue;"></i></a></button>
-
 				<select data-uia="language-picker-header" class="ui-select medium" id="lang-switcher-header-select" tabindex="0" placeholder="lang-switcher"><option selected="" lang="es" value="/hn/" data-language="es" data-country="HN">Español</option><option lang="en" value="/hn-en/" data-language="en" data-country="HN">English</option></select>
        
 
 				<button id="s"><i>Inicio</i></a></button>
-				<button id="s"><a   href="pagina6.html"><i  style="color: white; ">Series</i></a></button>   
+				<button id="s"><a   href="pagina6.html"><i  style=" width: 100px; height: 80px;  color: white; ">Series</i></a></button> 
 			    <button id="s"><a href="pagina5.html"><i style="color: white; "> Peliculas</i> </a></button>
-			    <button id="s"><a   href="pagina7.html"><i style="color: white; ">TV EN VIVO</i></a></button> 
+			    <button id="s"><a   href="pagina7.html"><i style="color: white; ">TV EN VIVO</i></a></button>
 				<button id="s"><a href="pagina 4.html"> <i style="color: white; "> Mas reciente</i> </a></button>
 			  	
 			</nav>
@@ -157,5 +191,20 @@ font-family: 'PT Sans Narrow', sans-serif;
         
         <center><h2   style="color: black;" class="titulo-final">&copy; Jorge Meraz | Alejandro Meraz  CopyRight 2021</h2></center>
     </fooater>
+
+    
+<div class="resolucion">
+        <div class="desktop">
+            <h4>Esto es un ordenador</h1>
+        </div>
+        <div class="tablet">
+            <h4>Esto es un tablet</h1>
+        </div>
+        <div class="movil">
+            <h4>Esto es un movil</h1>
+        </div>
+    </div>  
+
+
 </body>
 </html>
