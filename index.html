@@ -136,6 +136,10 @@ font-family: 'PT Sans Narrow', sans-serif;
   margin: 0;
 }
 
+
+  
+
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -416,43 +420,46 @@ body {
 </style>
 
 </head>
-<body   style="background-color:#01184D;">
+<body   style="background-color:blue;">
 
 
-	<header>
-		<div class="contenedor">
-			<h2 id="TITULO" style="color:black;"  class="logotipo">FreeMovies</h2>
-			<nav id="nav">
 
-				<select data-uia="language-picker-header" class="ui-select medium" id="lang-switcher-header-select" tabindex="0" placeholder="lang-switcher"><option selected="" lang="es" value="/hn/" data-language="es" data-country="HN">Español</option><option lang="en" value="/hn-en/" data-language="en" data-country="HN">English</option></select>
-       
+ <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 style=" color: blue; " class="logo">FreeMovies</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active"></li>
+                    <li class="menu-list-item"></li>
+                    <li class="menu-list-item"></li>
+                    <li class="menu-list-item"></li>
+                    <li class="menu-list-item"></li>
 
-				<button id="s"><i>Inicio</i></a></button>
-				<button id="s"><a   href="pagina6.html"><i  style=" width: 100px; height: 80px;  color: white; ">Series</i></a></button> 
-			    <button id="s"><a href="Peliculasd.html"><i style="color: white; "> Peliculas</i> </a></button>
-			    <button id="s"><a   href="pagina7.html"><i style="color: white; ">TV EN VIVO</i></a></button>
-				<button id="s"><a href="pagina 4.html"> <i style="color: white; "> Mas reciente</i> </a></button>
-			  	
-			</nav>
-		</div>
-	</header>
-
+                </ul>
+            </div>
+            <div class="profile-container">
+               
+                <div class="toggle">
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <i class="fas fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+   
 	<main>
 		<div class="pelicula-principal">
+		
 			<div class="contenedor">
 				<h3  id="TITULO"  style="color:white;"  class="titulo">ARCANE</h3>
 				<p style="color:white;"    class="descripcion">
 					Arcane es una serie de televisión animada franco-estadounidense de aventuras, drama y comedia1​, ambientada en el universo de League of Legends.2​3​ La serie fue anunciada durante las celebraciones del décimo aniversario de League of Legends.4​ Será desarrollada y producida por Riot Games, con servicios de animación del estudio francés Fortiche Productions. Originalmente programada para un lanzamiento en 2020, la serie se reprogramó para un lanzamiento en 2021 debido a la pandemia de COVID-19.5​ La serie se estrenó finalmente a nivel mundial el 6 de noviembre de 2021 tanto en la plataforma de de vídeo de Netflix como en Tencent Video en China.6​ La serie se verá dividida en 3 "actos" de 3 episodios cada uno, lanzados durante 3 semanas consecutivas.7​8​
 				</p>1
 				<button><a href="arcane.html"><i  id="RE">Reproducir</i></a></button>
-
-
-
-				<center><button   style=  " background-color: white;  width:140px; height:40px"><a style="color:;" href="REGISTRAR.html"><i>REGISTRAR</i></a> 
-	<br></button></center>
-		
-
-	
 			</div>
 		</div>
 	</main>
@@ -526,7 +533,7 @@ body {
 
 <fooater>
         
-        <center><h2   style="color: black;" class="titulo-final">&copy; Jorge Meraz | Alejandro Meraz  CopyRight 2022</h2></center>
+        <center><h2   style="color: black;" class="titulo-final">&copy; Jorge Meraz | Alejandro Meraz  CopyRight 2021</h2></center>
     </fooater>
 
     
@@ -543,5 +550,10 @@ body {
     </div>  
 
 
+
+
+
+
+     <script src="app.js"></script>
 </body>
 </html>
