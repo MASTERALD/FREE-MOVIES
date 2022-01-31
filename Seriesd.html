@@ -61,6 +61,84 @@
 }
 
 
+@media screen and (max-width: 800px){
+     .menu-container{
+        flex-direction: column;
+     }
+
+}
+
+
+
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.btn-neon:hover{
+    background: darkblue;
+    box-shadow: 0 0 10px darkblue, 0 0 40px darkblue, 0 0 80px darkblue;
+    transition-delay: 1s;
+ }
+.btn-neon span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,blue);
+ }
+ .btn-neon:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+ #span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,blue);
+}
+ .btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,blue);
+}
+.btn-neon:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,blue);
+}
+.btn-neon:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+
 
 
  </style>
@@ -108,7 +186,7 @@
       <div class="container">
         <div class="content-container">
             <div class="featured-content"
-                style=" width: 1300px; height: 350px; background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/All-of-Us-Are-Dead-Netflix-Series.jpg');">
+                style=" width: 1170px; height: 350px; background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/All-of-Us-Are-Dead-Netflix-Series.jpg');">
                <h3>Estamos muertos</h3>
                 <p class="featured-desc">Luego de que un virus zombi se propaga por su escuela, un grupo de jóvenes atrapados debe encontrar una salida o acabar infectado.</p>
                 <button class="featured-button"><a href="estamos Muertos.html"><i style=" color: white;">Reproducir</i> </a></button>
@@ -116,7 +194,7 @@
             </div>
 
 
-             <div class="movie-list-container">
+             <div   class="movie-list-container">
                 <h1 class="movie-list-title">Nuevos Lanzamientos</h1>
                 <div class="movie-list-wrapper">
                     <div class="movie-list">
@@ -294,7 +372,7 @@
 
 
             <div class="movie-list-container">
-                <h1 class="movie-list-title">Entrenenimiento</h1>
+                <h1 class="movie-list-title">Comedia</h1>
                 <div class="movie-list-wrapper">
                     <div class="movie-list">
                         <div class="movie-list-item">
@@ -304,27 +382,29 @@
                             <button class="movie-list-item-button"><a href="Nosotros los guapos.html"><i style=" color: white; ">Reproducir</i> </a></button>
                         </div>
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/39.jpg" alt="">
-                            <span class="movie-list-item-title">No miren arriba</span>
-                            <p class="movie-list-item-desc">Dos astrónomos mediocres descubren que, en pocos meses, un meteorito destruirá el planeta Tierra. A partir de ese momento, intentan advertir a la humanidad del peligro que se avecina a través de los medios de comunicación.  </p>
+                            <img class="movie-list-item-img" src="img/LA FAMILIA DE DIEZ.jpg" alt="">
+                            <span class="movie-list-item-title">Una familia de diez</span>
+                            <p class="movie-list-item-desc"> Trama. Plácido López (Jorge Ortiz de Pinedo) es un contador que se está cansando de ser el único sustento de su familia, su esposa Renata y sus 2 hijos, Plutarco (Ricardo Margaleff) y Martina (Mariana Botas). Viven muy felices en un pequeño departamento en la Colonia Doctores de la Ciudad de México. </p>
                              <button class="movie-list-item-button"><a href=""><i>Reproducir</i> </a></button>
                         </div>
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/40.png" alt="">
-                            <span class="movie-list-item-title">Misión de rescate</span>
-                            <p class="movie-list-item-desc"> Tyler Rake, un intrépido mercenario, es enviado a Bangladesh por un poderoso mafioso encarcelado para que salve a su hijo secuestrado.</p>
+                            <img class="movie-list-item-img" src="img/vecinosportda-t.jpg" alt="">
+                            <span class="movie-list-item-title">Vecinos</span>
+                            <p class="movie-list-item-desc">Vecinos es una serie de televisión mexicana de comedia de situación creada en 2005 por el actor y director Eugenio Derbez y basada en la serie española original Aquí no hay quien viva de Alberto Caballero e Laura Caballero.
+
+</p>
                              <button class="movie-list-item-button"><a href=""><i style="color: white;" >Reproducir</i> </a></button>
                         </div>
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/41.jpg" alt="">
-                            <span class="movie-list-item-title">El poder del perro</span>
-                            <p class="movie-list-item-desc">Los acaudalados hermanos Phil y George Burbank son las dos caras de la misma moneda. Phil es elegante y cruel, mientras que George es impasible y amable. Cuando George se casa en secreto con una viuda del pueblo, Phil lleva a cabo una guerra sádica e implacable usando a su afeminado hijo, Peter, como peón.</p>
+                            <img class="movie-list-item-img" src="img/El_Chavo_(simple_logo).svg.png" alt="">
+                            <span class="movie-list-item-title">El Chavo del 8</span>
+                            <p class="movie-list-item-desc">El Chavo es un niño pobre de ocho años, que no tiene padres y que vive en un barril en la vecindad. Sus amigos son Quico y la Chilindrina; juntos juegan y cometen divertidas travesuras por el barrio, recibiendo las regañinas de los mayores.</p>
                              <button class="movie-list-item-button"><a href=""><i style="color: white;" >Reproducir</i> </a></button>
                         </div>
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/42.jpg" alt="">
-                            <span class="movie-list-item-title">Todo el día y una noche</span>
-                            <p class="movie-list-item-desc"> Un joven reflexiona por primera vez sobre sí mismo, sus circunstancias, la sociedad y el sistema que lo ha llevado a la prisión, cuando ingresa en la misma cárcel en la que su padre cumple condena.</p>
+                            <img  class="movie-list-item-img" src="img/1497397774_390492_1497398110_noticia_normal.jpg" alt="">
+                            <span class="movie-list-item-title">El Chapulín Colorado</span>
+                            <p class="movie-list-item-desc"></p>
                             <button class="movie-list-item-button"><a href=""><i style="color: white;" >Reproducir</i> </a></button>
                         </div>
                         <div class="movie-list-item">
@@ -457,10 +537,16 @@
                 </div>
             </div>
             <div class="featured-content"
-                style="  background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/1638668108_Las-proyecciones-de-prensa-de-Spider-Man-No-Way-Home-solo.jpg">
-                <img class="featured-title" src="img/No_way_home_logo.png" alt="">
-                <p class="featured-desc">Spider-Man No Way Home</p>
-                <button class=""><a href="https://drive.google.com/file/d/163pAnt_Q9uufhSV8Hyn1zYSyyHJ4M7iN/view?usp=sharing"><i style=" color: blue; ">Reproducir</i> </a></button>
+                style="  background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-2.jpg" alt="">
+                <img src="img/f-t-2.png">
+                <p class="featured-desc">La desaparición de un niño lleva a cuatro familias a una frenética búsqueda, mientras descubren un misterio que abarca tres generaciones. Esta inquietante serie de Baran bo Odar y Jantje Friese ganó el Grimme‑Preis en la categoría de ficción televisiva.</p>
+                  <a href="Dark Temporada 1.html" class="btn-neon">
+        <span id="span1"></span>
+        <span id="span2"></span>
+        <span id="span3"></span>
+        <span id="span4"></span>
+        Reproducir 
+    </a><br><br>
             </div>
             <div class="movie-list-container">
                 <h1 class="movie-list-title">Terror</h1>
