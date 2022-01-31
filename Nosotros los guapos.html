@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Nosotros Los Guapos</title>
+    <link rel="shortcut icon" href="img/logo3.png" type="image/x-icon">
 	<style>
 		figure {
 
@@ -95,6 +96,75 @@ font-family: 'PT Sans Narrow', sans-serif;
     }
 
 
+    .btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.btn-neon:hover{
+    background: darkblue;
+    box-shadow: 0 0 10px darkblue, 0 0 40px darkblue, 0 0 80px darkblue;
+    transition-delay: 1s;
+ }
+.btn-neon span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,darkblue);
+ }
+ .btn-neon:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+ #span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,darkred);
+}
+ .btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,darkred);
+}
+.btn-neon:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,darkblue);
+}
+.btn-neon:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+
 		
 
 
@@ -107,7 +177,7 @@ font-family: 'PT Sans Narrow', sans-serif;
 
 
 </head>
-<body style="background-color: blue;">
+<body style="background-color: #CEF900;">
 
 	 <figure>
    <div class="contenedor">
@@ -124,7 +194,13 @@ font-family: 'PT Sans Narrow', sans-serif;
            </a>
       </div>
        
-        <figcaption><button><a href="Nosotros Los Guapos Temporada 1.html"><i>Reproducir  Nosotros Los Guapos Temporada 1 </i></a></button></figcaption>           
+        <figcaption> <center><a href="Nosotros Los Guapos Temporada 1.html" class="btn-neon">
+        <span id="span1"></span>
+        <span id="span2"></span>
+        <span id="span3"></span>
+        <span id="span4"></span>
+        <i style="width: 70px ; height: 70px; ">Reproducir Temporada 1</i> 
+    </a></center><br><br></figcaption>           
  </figure>
 
 
@@ -144,7 +220,13 @@ font-family: 'PT Sans Narrow', sans-serif;
            </a>
       </div>
        
-        <figcaption><button><a href="Nosotros Los Guapos Temporada 2.html"><i>Reproducir  Nosotros Los Guapos Temporada 2 </i></a></button></figcaption>           
+        <figcaption> <center><a href="Nosotros Los Guapos Temporada 2.html" class="btn-neon">
+        <span id="span1"></span>
+        <span id="span2"></span>
+        <span id="span3"></span>
+        <span id="span4"></span>
+        <i style="width: 70px ; height: 70px; ">Reproducir Temporada 2 </i> 
+    </a></center><br><br></figcaption>           
  </figure>
 
 
@@ -165,7 +247,13 @@ font-family: 'PT Sans Narrow', sans-serif;
            </a>
       </div>
        
-        <figcaption><button><a href="Nosotros Los Guapos Temporada 3.html"><i>Reproducir  Nosotros Los Guapos Temporada 3 </i></a></button></figcaption>           
+        <figcaption> <center><a href="Nosotros Los Guapos Temporada 3.html" class="btn-neon">
+        <span id="span1"></span>
+        <span id="span2"></span>
+        <span id="span3"></span>
+        <span id="span4"></span>
+        <i style="width: 70px ; height: 70px; ">Reproducir Temporada 3</i> 
+    </a></center><br><br></figcaption>           
  </figure>
 
 
@@ -188,7 +276,13 @@ font-family: 'PT Sans Narrow', sans-serif;
            </a>
       </div>
        
-        <figcaption><button><a href="Nosotros Los Guapos Temporada 4.html"><i>Reproducir  Nosotros Los Guapos Temporada 4 </i></a></button></figcaption>           
+        <figcaption> <center><a href="Nosotros Los Guapos Temporada 4.html" class="btn-neon">
+        <span id="span1"></span>
+        <span id="span2"></span>
+        <span id="span3"></span>
+        <span id="span4"></span>
+        <i style="width: 70px ; height: 70px; ">Reproducir Temporada 4</i> 
+    </a></center><br><br></figcaption>           
  </figure>
 
 </body>
