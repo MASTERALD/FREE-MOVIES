@@ -1,0 +1,255 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="shortcut icon" href="img/logo3.png" type="image/x-icon">
+    <title>FreeMovies Chucky</title>
+   
+ <style>
+  
+    } 
+
+
+
+
+     /**Movil**/
+
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+}
+
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .desktop {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+
+
+
+* {
+  margin: 0;
+}
+
+
+
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.btn-neon:hover{
+    background: darkblue;
+    box-shadow: 0 0 10px darkblue, 0 0 40px darkblue, 0 0 80px darkblue;
+    transition-delay: 1s;
+ }
+.btn-neon span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,blue);
+ }
+ .btn-neon:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+ #span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,blue);
+}
+ .btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,blue);
+}
+.btn-neon:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,blue);
+}
+.btn-neon:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+
+ </style>
+
+
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 style=" color: blue; " class="logo">FreeMovies</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active"></li>
+                    <li class="menu-list-item"></li>
+                    <li class="menu-list-item"></li>
+                    <li class="menu-list-item"></li>
+                    <li class="menu-list-item"></li>
+
+                </ul>
+            </div>
+            <div class="profile-container">
+               
+                <div class="toggle">
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <i class="fas fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="left-menu-icon fas fa-search"></i>
+        <i class="left-menu-icon fas fa-home"></i>
+        <i class="left-menu-icon fas fa-users"></i>
+        <i class="left-menu-icon fas fa-bookmark"></i>
+        <i class="left-menu-icon fas fa-tv"></i>
+        <i class="left-menu-icon fas fa-hourglass-start"></i>
+        <i class="left-menu-icon fas fa-shopping-cart"></i>
+    </div>
+      <div class="container">
+        <div class="content-container">
+
+            <center><a href="https://drive.google.com/file/d/1SMAeBVSZeiMhTT8s7sqAqd9NNMX_TTmi/view?usp=sharing" class="btn-neon">
+        <span id="span1"></span>
+        <span id="span2"></span>
+        <span id="span3"></span>
+        <span id="span4"></span>
+        Reproducir Episodio 1
+    </a></center><br><br>
+
+    <center><a href="https://drive.google.com/file/d/1IcnpB9toVIzZpkfRv5Ca_7ZyWFb5oQ7m/view?usp=sharing" class="btn-neon">
+        <span id="span1"></span>
+        <span id="span2"></span>
+        <span id="span3"></span>
+        <span id="span4"></span>
+        Reproducir Episodio 2
+    </a></center><br><br>
+
+ <center><a href="https://drive.google.com/file/d/1kqtcmJFhqEQvDQuqCfu2QeZzdGFpZcVL/view?usp=sharing" class="btn-neon">
+        <span id="span1"></span>
+        <span id="span2"></span>
+        <span id="span3"></span>
+        <span id="span4"></span>
+        Reproducir Episodio 3
+    </a></center><br><br>
+
+
+ <center><a href="https://drive.google.com/file/d/1mx1Bo0LwxWibG_7kEgqJP16q5ZbvirB4/view?usp=sharing" class="btn-neon">
+        <span id="span1"></span>
+        <span id="span2"></span>
+        <span id="span3"></span>
+        <span id="span4"></span>
+        Reproducir Episodio 4
+    </a></center><br><br>
+
+
+ <center><a href="https://drive.google.com/file/d/1T1CD1LCazrCSeAoQHTvRQte09ht882xb/view?usp=sharing" class="btn-neon">
+        <span id="span1"></span>
+        <span id="span2"></span>
+        <span id="span3"></span>
+        <span id="span4"></span>
+        Reproducir Episodio 5
+    </a></center><br><br>
+
+
+ <center><a href="https://drive.google.com/file/d/1mn61BzuzRloDNImjD60oQFmZ64TDkmMz/view?usp=sharing" class="btn-neon">
+        <span id="span1"></span>
+        <span id="span2"></span>
+        <span id="span3"></span>
+        <span id="span4"></span>
+        Reproducir Episodio 6
+    </a></center><br><br>
+
+
+ <center><a href="https://drive.google.com/file/d/1r5xCpcP8HUXSIWhx_sUtgh2SshabABE3/view?usp=sharing" class="btn-neon">
+        <span id="span1"></span>
+        <span id="span2"></span>
+        <span id="span3"></span>
+        <span id="span4"></span>
+        Reproducir Episodio 7
+    </a></center><br><br>
+
+
+ <center><a href="https://drive.google.com/file/d/16dY3uR3hDSCrPHO5jqn4porTTJ-EWDm3/view?usp=sharing" class="btn-neon">
+        <span id="span1"></span>
+        <span id="span2"></span>
+        <span id="span3"></span>
+        <span id="span4"></span>
+        Reproducir Episodio 8
+    </a></center><br><br>
+
+
+    
+    
+
+    <script src="app.js"></script>
+</body>
+
+</html>
